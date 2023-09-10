@@ -1,10 +1,10 @@
 import React from 'react'
-import "./Portifilio.css"
+import "./Portifolio.css"
 
 const Portifilio = () => {
   return (
     <div>
-      
+      Portifolio Section
     </div>
   )
 }

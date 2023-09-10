@@ -4,7 +4,7 @@ import "./Middle.css"
 const Middle = () => {
   return (
     <div>
-      
+      Middle section
     </div>
   )
 }

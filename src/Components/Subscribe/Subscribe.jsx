@@ -4,7 +4,7 @@ import "./Subscribe.css"
 const Subscribe = () => {
   return (
     <div>
-      
+      Subscribe section
     </div>
   )
 }
