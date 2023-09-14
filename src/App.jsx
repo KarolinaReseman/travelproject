@@ -18,8 +18,8 @@ function App() {
       <Home/>
       <Middle/>
       <Destinations/>
-      {/* <Portifilio/>
-      <Question/>
+      <Portifilio/>
+      {/* <Question/>
       <Reviews/>
       <Subscribe/>
       <Footer/> */}
