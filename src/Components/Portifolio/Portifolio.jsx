@@ -10,7 +10,7 @@ const Portifilio = () => {
   return (
     <div className='portifolio section container'>
       <div className="secContainer grid">
-        <div className="leftContainer">
+        <div className="leftContent">
           <div className="secHeading">
             <h3>Why Should You Choose Us</h3>
             <p>
