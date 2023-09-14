@@ -5,6 +5,72 @@ import {BsFillCreditCardFill, BsFillCalendarDateFill} from "react-icons/bs"
 import {BiSearchAlt} from "react-icons/bi"
 import {TiLocation} from "react-icons/ti"
 import image1 from "../../Assets/image11.jpg"
+import image2 from "../../Assets/Seychelles Island.jpg"
+import image3 from "../../Assets/Bora Bora Island.jpg"
+import image4 from "../../Assets/Maldives Island.jpg"
+import image5 from "../../Assets/Santorini Island.jpg"
+import image6 from "../../Assets/BaliIsland.jpg"
+import image7 from "../../Assets/Maui Island.jpg"
+import image8 from "../../Assets/Capri Island.jpg"
+
+const destinations = [
+  {
+    id: 1,
+    image: image1,
+    name: 'Seychelles Island',
+    location: "Indian Ocean",
+    rating: 4.7,
+  },
+  {
+    id: 2,
+    image: image2,
+    name: 'Bora Bora Island',
+    location: "Polynesia",
+    rating: 4.3,
+  },
+  {
+    id: 3,
+    image: image3,
+    name: 'Maldives Island',
+    location: "Indian Ocean",
+    rating: 4.9,
+  },
+  {
+    id: 4,
+    image: image4,
+    name: 'Santorini Island',
+    location: "Greece",
+    rating: 4.5,
+  },
+  {
+    id: 5,
+    image: image5,
+    name: 'Bali Island',
+    location: "Indonesia",
+    rating: 4.9,
+  },
+  {
+    id: 6,
+    image: image6,
+    name: 'Maui Island',
+    location: "Hawaii, USA",
+    rating: 4.9,
+  },
+  {
+    id: 7,
+    image: image7,
+    name: 'Capri Island',
+    location: "Italy",
+    rating: 4.7,
+  },
+  {
+    id: 8,
+    image: image8,
+    name: 'Fiji Island',
+    location: "South Pacific",
+    rating: 4.4,
+  },
+]
 
 const Destinations = () => {
   return (
@@ -54,24 +120,28 @@ const Destinations = () => {
         </div>
 
         <div className="destinationContainer grid">
-          <div className="singleDestination">
+          {destinations.map((destination) => {
+            return(
+            <div className="singleDestination" key={destination.id}>
             <div className="imgDiv">
-              <img src={image1} alt="Destination Image"/>
+              <img src={destination.image} alt="Destination Image"/>
               <div className="descInfo flex">
                 <div className="text">
-                  <span className="name">Baro Baro Island</span>
+                  <span className="name">{destination.name}</span>
                     <p className='flex'><TiLocation className='icon'/>
-                    Netherlands
+                    {destination.location}
                     </p>
                 </div>
                 <span className="rating">
-                  4.6
+                  {destination.rating}
                 </span>
               </div>
             </div>
 
-
           </div>
+
+            )
+          })}
         </div>
       </div>
     </div>
