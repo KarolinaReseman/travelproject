@@ -19,8 +19,8 @@ function App() {
       <Middle/>
       <Destinations/>
       <Portifilio/>
-      {/* <Question/>
       <Reviews/>
+      {/* <Question/>
       <Subscribe/>
       <Footer/> */}
     </div>
