@@ -1,8 +1,11 @@
-import React from 'react'
+import React , {useState} from 'react'
 import "./Questions.css"
 import Accordion from './Accordion'
+import "./Questions.css"
 
 const Questions = () => {
+  const [active, setActive] = useState("")
+
   return (
     <div className='question section container'>
       <div className="secheading">
@@ -10,7 +13,17 @@ const Questions = () => {
       </div>
       <div className="secContainer grid">
         <div className="accordion grid"> 
-        <Accordion/>
+        <Accordion 
+          title="How do I choose the right travel 
+            destination for me?" 
+          desc="onsider your interests, budget, desired ezperiences, and the type of environment you enjoy. Research destinations that align with your preferences and offer attractions or activities you find appealing." 
+            active={active} 
+            setActive={setActive}/>
+        <Accordion 
+          title="How do I choose" 
+          desc="onsider your interests, budget, desired ezperiences, and the type of environment you enjoy. Research destinations that align with your preferences and offer attractions or activities you find appealing." 
+            active={active} 
+            setActive={setActive}/>
         </div>
 
         <div className="form">
