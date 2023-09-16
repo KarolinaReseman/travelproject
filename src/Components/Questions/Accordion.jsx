@@ -1,5 +1,6 @@
 import React from 'react'
 import {BsArrowDownCircle} from "react-icons/bs"
+import "./Questions.css"
 
 const Accordion = ({title, desc, active, setActive}) => {
 
@@ -7,7 +8,7 @@ const Accordion = ({title, desc, active, setActive}) => {
     <div className='accordionContainer'>
         <span className="title flex">
             {title}
-            <span onClick={()=> setActive(title)}>
+            <span onClick={() => setActive(title)}>
             <BsArrowDownCircle className='icon'/>
             </span>
         </span>
@@ -15,7 +16,7 @@ const Accordion = ({title, desc, active, setActive}) => {
             {desc}
         </p>
     </div>
-  )
-}
+  );
+};
 
 export default Accordion
