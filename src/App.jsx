@@ -21,8 +21,8 @@ function App() {
       <Portifilio/>
       <Reviews/>
       <Question/>
-      {/* <Subscribe/>
-      <Footer/> */}
+      <Subscribe/>
+      {/* <Footer/> */}
     </div>
   )
 }
