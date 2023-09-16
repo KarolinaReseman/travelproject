@@ -40,7 +40,7 @@ root {
   align-items: center;
   line-height: 20px;
   white-space: pre-line;
-  height: 0;
+  height: 0px;
   transition: all 0.3s ease-in-out;
   opacity: 0;
   padding: 0 1rem;
@@ -55,4 +55,36 @@ root {
 .accordionContainer .activeTitle {
   background: var(--primaryColorLight);
   border-radius: 10px 10px 0 0;
+}
+
+.question .secHeading h3, .question .secHeading h4 {
+  padding-bottom: 1.5rem;
+}
+.question .secHeading p {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+  padding-bottom: 1rem;
+}
+.question .form .formContent {
+  gap: 1rem;
+}
+.question .form .formContent input, .question .form .formContent textarea {
+  background: var(--cardColor);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: var(--borderRadius);
+}
+.question .form .formContent input::-moz-placeholder, .question .form .formContent textarea::-moz-placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.question .form .formContent input::placeholder, .question .form .formContent textarea::placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.question .form .formContent textarea {
+  height: 100px;
+  border-radius: 10px;
 }/*# sourceMappingURL=Questions.css.map */
