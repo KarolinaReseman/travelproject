@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React from 'react'
 import "./Footer.css"
 import {BiLogoMediumOld} from "react-icons/bi"
 import {ImFacebook} from "react-icons/im"
