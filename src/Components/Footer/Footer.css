@@ -17,4 +17,51 @@ root {
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
   --borderRadius: 3rem ;
+}
+
+.footer {
+  background: var(--primaryColorLight);
+  padding: 2rem 0;
+}
+.footer .secContainer {
+  gap: 1.5rem;
+  text-align: center;
+  align-items: flex-start;
+}
+.footer .logoDiv .footerLogo {
+  display: flex;
+  color: var(--blackColor);
+  font-weight: 500;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+.footer .logoDiv .footerLogo .icon {
+  font-size: 25px;
+  color: var(--blackColor);
+}
+.footer .logoDiv .social {
+  gap: 0.5rem;
+  margin: auto;
+  justify-content: center;
+}
+.footer .logoDiv .social .icon {
+  font-size: 25px;
+  background: var(--blackColor);
+  border-radius: 50%;
+  padding: 8px;
+  color: var(--whiteColor);
+}
+.footer .logoDiv .social .icon:hover {
+  background: var(--primaryColorLight);
+}
+.footer .logoDiv .footerLinks {
+  display: grid;
+  row-gap: 0.2rem;
+}
+.footer .logoDiv .footerLinks .linkTitle {
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 700;
 }/*# sourceMappingURL=Footer.css.map */

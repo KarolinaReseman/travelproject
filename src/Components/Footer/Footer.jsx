@@ -55,7 +55,12 @@ const Footer = () => {
             </li>
           </div>
 
-      
+          <div className="footerLinks">
+            <span className="linkTitle">Contact Details</span>
+            <span className="phone">+48 111 111 111</span>
+            <span className="email">expample.email@gmail.com</span>
+            
+          </div>
         </div>
       </div>
     </div>
