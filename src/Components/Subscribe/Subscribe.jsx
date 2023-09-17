@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Subscribe.css"
-import image from "../../Assets/women.jpg"
+import image from "../../Assets/woman.jpg"
 
 const Subscribe = () => {
   return (
     <div className='subscribe section container'>
-      <div className="sec Container grid">
+      <div className="secContainer grid">
         <img src={image} alt='Div Image'/>
 
         <div className='textDiv'>
