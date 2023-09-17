@@ -2,6 +2,10 @@ import React from 'react'
 import "./Home.css"
 import Video from "../../Assets/video.mp4"
 import {AiOutlineSwapRight} from "react-icons/ai"
+import image1 from "../../Assets/mountain.jpg"
+import image2 from "../../Assets/balons.jpg"
+import image3 from "../../Assets/park.jpg"
+import image4 from "../../Assets/greece.jpg"
 
 const Home = () => {
   return (
@@ -19,12 +23,12 @@ const Home = () => {
       </div>
       <div className="popularPlaces">
         <div className="content">
-          <h3>Popular Places</h3>
+          <h3>Popular Places ------------------------------------------------------------------------------------------------------------------------</h3>
           <div className="images flex">
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
+            <img src={image1} alt="Destination Images" />
+            <img src={image2} alt="Destination Images" />
+            <img src={image3} alt="Destination Images" />
+            <img src={image4} alt="Destination Images"/>
           </div>
         </div>
       </div>
