@@ -22,7 +22,7 @@ function App() {
       <Reviews/>
       <Question/>
       <Subscribe/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
