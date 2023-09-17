@@ -44,6 +44,7 @@ root {
 .footer .logoDiv .social {
   gap: 0.5rem;
   margin: auto;
+  align-items: center;
   justify-content: center;
 }
 .footer .logoDiv .social .icon {
@@ -64,4 +65,15 @@ root {
   padding-bottom: 0.5rem;
   color: var(--blackColor);
   font-weight: 700;
+}
+.footer .logoDiv .footerLinks li:hover {
+  transform: translate(10px);
+}
+.footer .logoDiv .footerLinks li:hover a {
+  color: var(--primaryColor);
+}
+.footer .logoDiv .footerLinks a, .footer .logoDiv .footerLinks .phone, .footer .logoDiv .footerLinks .email {
+  color: var(--blackColor);
+  font-size: 13px;
+  font-weight: 500;
 }/*# sourceMappingURL=Footer.css.map */

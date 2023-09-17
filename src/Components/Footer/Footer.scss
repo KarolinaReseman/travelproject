@@ -51,6 +51,7 @@ root {
         .social {
             gap: .5rem;
             margin: auto;
+            align-items: center;
             justify-content: center;
 
             .icon{
@@ -73,6 +74,21 @@ root {
                 padding-bottom: .5rem;
                 color: var(--blackColor);
                 font-weight: 700;
+            }
+
+            li{
+                &:hover{
+                    transform: translate(10px);
+                    a{
+                        color: var(--primaryColor)
+                    }
+                }
+            }
+
+            a, .phone, .email {
+                color: var(--blackColor);
+                font-size: 13px;
+                font-weight: 500;
             }
         }
 

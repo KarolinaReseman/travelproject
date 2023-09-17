@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="secContainer container grid">
         <div className="logoDiv">
           <div className="footerLogo">
-          <BiLogoMediumOld className='icon'/>
-          <span>OU-Trips</span>
+            <BiLogoMediumOld className='icon'/>
+            <span>OU-Trips</span>
           </div>
           <div className="social flex">
             <ImFacebook className="icon"/>
