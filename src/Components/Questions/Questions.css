@@ -19,7 +19,7 @@ root {
   --borderRadius: 3rem ;
 }
 
-.accordionContainer .title {
+.accordion .title {
   font-size: var(--normalFontSize);
   align-items: center;
   padding: 1rem;
@@ -27,14 +27,14 @@ root {
   justify-content: space-between;
   background: var(--primaryColorLight);
 }
-.accordionContainer .title span {
+.accordion .title span {
   cursor: pointer;
 }
-.accordionContainer .title span .icon {
+.accordion .title span .icon {
   font-size: 1.2rem;
   color: var(--blackColor);
 }
-.accordionContainer .description {
+.accordion .description {
   font-size: var(--smallFontSize);
   display: flex;
   align-items: center;
@@ -48,11 +48,11 @@ root {
   border-radius: 0 0 10px 10px;
   color: var(--blackColor);
 }
-.accordionContainer .show {
+.accordion .show {
   height: 140px;
   opacity: 1;
 }
-.accordionContainer .activeTitle {
+.accordion .activeTitle {
   background: var(--primaryColorLight);
   border-radius: 10px 10px 0 0;
 }
