@@ -87,4 +87,9 @@ root {
   .secContainer .footerLinks {
     justify-content: center;
   }
+}
+@media screen and (min-width: 640px) {
+  .secContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=Footer.css.map */
