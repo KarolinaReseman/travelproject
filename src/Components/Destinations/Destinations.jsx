@@ -95,18 +95,18 @@ const Destinations = () => {
         <div className="searchField grid">
           <div className="inputField flex" data-aos='fade-up'>
           <MdLocationPin className="icon"/>
-          <input type="text" placeholder='Budget'/>
+          <input type="text" placeholder='Location'/>
           </div>
 
           <div className="inputField flex" data-aos='fade-up'>
           <BsFillCreditCardFill className="icon"/>
-          <input type="text" placeholder='Date'/>
+          <input type="text" placeholder='Budget'/>
           </div>
 
     
           <div className="inputField flex" data-aos='fade-up'>
           <BsFillCalendarDateFill className="icon"/>
-          <input type="text" placeholder='Location'/>
+          <input type="text" placeholder='Date'/>
           </div>
 
           <button className='btn flex' data-aos='fade-up'>
