@@ -140,14 +140,12 @@
         position: relative;
 
         .sectionText{
+
             h1{
                 font-size: 4.5rem;
-            }
-
-            .popularPlaces {
-                display: block;
-                position: absolute;
-                bottom: 10%;
+                font-weight: 900;
+                max-width: 70%;
+                margin: auto;
             }
 
             p{
@@ -164,43 +162,29 @@
                 font-size: var(--h3FontSize);
                 margin: auto;
             }
-
-
-
         }
 
-        .popularPlaces{
-            display: block;
-            position: absolute;
-            bottom: 10%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
 
         .content{
-            h3 {
+            h3{
                 color: var(--whiteColor);
                 padding: 1rem 0;
                 position: relative;
+        
                 &::after{
                     content: '';
                     width: 83%;
                     height: 2px;
-                    background: rgb(202, 202, 202);
-                    right: 0;
-                    bottom: 50%;
-                    position: absolute ;
+                    background: rgb(202, 202, 202) ;
                 }
             }
-
+                
             .images{
                 align-items: center;
                 justify-content: center;
                 gap: 2rem;
-
-
+        
+        
                 img{
                     height: 100px;
                     width: 210px;
@@ -208,8 +192,11 @@
                     border-radius: 10px;
                 }
             }
+
         }
     }
+
 }
+
 
 
