@@ -148,26 +148,12 @@
                 margin: auto;
             }
 
-            p{
-                padding: 1 rem 0;
-                font-size: var(--h2FontSize);
-                max-width: 70%;
-                margin: auto;
-            }
-
-            .btn{
-                gap: .5rem;
-                padding-right: 2rem ;
-                padding-left: 2rem;
-                font-size: var(--h3FontSize);
-                margin: auto;
-            }
         }
 
         .popularPlaces{
             display: block;
             position: absolute;
-            bottom: 10%;
+            bottom: 6%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -205,4 +191,3 @@
         }
     }
 }
- 
