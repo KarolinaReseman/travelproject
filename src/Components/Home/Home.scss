@@ -147,22 +147,40 @@
             display: flex;
             align-items: center;
             justify-content: center;
+        
+            .content{
+                h3{
+                    color: var(--whiteColor);
+                    padding: 1rem 0;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        width: 83%;
+                        height: 2px;
+                        background: rgb(202, 202, 202);
+                        right: 0;
+                        bottom: 50%;
+                        position: absolute;
+                    }
+                }
+            }
         }
 
-        h3{
-            color: var(--whiteColor);
-            padding: 1rem 0;
-            position: relative;
-            &::after{
-                content: '';
-                width: 83%;
-                height: 2px;
-                background: rgb(202, 202, 202);
-                right: 0;
-                bottom: 50%;
-                position: absolute;
-
+        .images{
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+                
+            img{
+                height: 100px;
+                width: 210px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
         }
+    }
+
+}
         // .sectionText{
 
         //     h1{
@@ -187,37 +205,4 @@
         //         margin: auto;
         //     }
         // }
-
-
-        // .content{
-        //     h3{
-        //         color: var(--whiteColor);
-        //         padding: 1rem 0;
-        //         position: relative;
-        
-        //         &::after{
-        //             content: '';
-        //             width: 83%;
-        //             height: 2px;
-        //             background: rgb(202, 202, 202) ;
-        //         }
-        //     }
-                
-        //     .images{
-        //         align-items: center;
-        //         justify-content: center;
-        //         gap: 2rem;
-        
-        
-        //         img{
-        //             height: 100px;
-        //             width: 210px;
-        //             object-fit: cover;
-        //             border-radius: 10px;
-        //         }
-        //     }
-
-        // }
-        }
-    }
-}
+ 
