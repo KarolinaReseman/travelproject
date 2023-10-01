@@ -168,6 +168,9 @@ root {
   .destination .secContainer .secTitle p {
     font-size: var(--h3FontSize);
   }
+  .destination .secContainer .secTitle .secMenu .flex {
+    justify-content: left;
+  }
   .destination .secContainer .searchField {
     grid-template-columns: repeat(4, 1fr);
   }
