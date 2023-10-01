@@ -195,7 +195,7 @@ root {
             }
 
             .searchField{
-                grid-template-columns: repeat(4,1fr);
+                grid-template-columns: repeat(2,1fr);
             }
         }
     }
@@ -204,27 +204,15 @@ root {
 @media screen  and (min-width: 1014px){
     .destination{
         .secContainer{
-
             .secTitle{
                 .redtext{
                     font-size: var(--normalFontSize);
                 }
-
                 h3{
-                    font-size: var(--h1FontSize);
+                font-size: var(--biggestFrontSize);
                 }
-
                 p{
-                    font-size: var(--h3FontSize);
-                }
-
-                .secMenu{
-                    .flex{
-                        justify-content: left;
-                    }
-
-                    //{li}
-                    
+                font-size: var(--h2FontSize);
                 }
             }
 
@@ -240,20 +228,20 @@ root {
 @media screen  and (min-width: 1148px){
     .destination{
         .secContainer{
-
             .secTitle{
-
-                h3{
-                    font-size: var(--biggestFrontSize);
+                .redtext{
+                    font-size: var(--normalFontSize);
                 }
-
+                h3{
+                font-size: var(--biggestFrontSize);
+                }
                 p{
-                    font-size: var(--h2FontSize);
+                font-size: var(--h2FontSize);
                 }
             }
 
             .destinationContainer{
-                grid-template-columns: repeat(3,1fr);
+                grid-template-columns: repeat(4,1fr);
             }
         }
     }
@@ -262,6 +250,17 @@ root {
 @media screen  and (min-width: 1400px){
     .destination{
         .secContainer{
+            .secTitle{
+                .redtext{
+                    font-size: var(--normalFontSize);
+                }
+                h3{
+                font-size: var(--biggestFrontSize);
+                }
+                p{
+                font-size: var(--h2FontSize);
+                }
+            }
 
             .destinationContainer{
                 grid-template-columns: repeat(4,1fr);

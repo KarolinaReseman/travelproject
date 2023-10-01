@@ -155,7 +155,7 @@ root {
     border: 1.5px dashed var(--primaryColor);
   }
   .destination .secContainer .searchField {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1014px) {
@@ -163,19 +163,19 @@ root {
     font-size: var(--normalFontSize);
   }
   .destination .secContainer .secTitle h3 {
-    font-size: var(--h1FontSize);
+    font-size: var(--biggestFrontSize);
   }
   .destination .secContainer .secTitle p {
-    font-size: var(--h3FontSize);
-  }
-  .destination .secContainer .secTitle .secMenu .flex {
-    justify-content: left;
+    font-size: var(--h2FontSize);
   }
   .destination .secContainer .searchField {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 @media screen and (min-width: 1148px) {
+  .destination .secContainer .secTitle .redtext {
+    font-size: var(--normalFontSize);
+  }
   .destination .secContainer .secTitle h3 {
     font-size: var(--biggestFrontSize);
   }
@@ -183,10 +183,19 @@ root {
     font-size: var(--h2FontSize);
   }
   .destination .secContainer .destinationContainer {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media screen and (min-width: 1400px) {
+  .destination .secContainer .secTitle .redtext {
+    font-size: var(--normalFontSize);
+  }
+  .destination .secContainer .secTitle h3 {
+    font-size: var(--biggestFrontSize);
+  }
+  .destination .secContainer .secTitle p {
+    font-size: var(--h2FontSize);
+  }
   .destination .secContainer .destinationContainer {
     grid-template-columns: repeat(4, 1fr);
   }
