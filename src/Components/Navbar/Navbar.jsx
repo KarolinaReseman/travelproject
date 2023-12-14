@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className='navBar'>
       <div className="logoDiv">
       <BiLogoMediumOld className="icon"/>
-      <span>OU-Trips</span>
+      <span>IA-Trips</span>
       </div>
       <div className={navBar}>
         <ul>
