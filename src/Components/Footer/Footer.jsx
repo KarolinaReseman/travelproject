@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="logoDiv">
           <div className="footerLogo" data-aos='fade-up'>
             <BiLogoMediumOld className='icon'/>
-            <span>OU-Trips</span>
+            <span>IA-Trips</span>
           </div>
           <div className="social flex" data-aos='fade-up'>
             <ImFacebook className="icon"/>
