@@ -26,6 +26,7 @@ const Footer = () => {
             <BsTwitter className="icon"/>
             <AiFillInstagram className="icon"/>
           </div>
+        </div>
           <div className="footerLinks" data-aos='fade-up'>
             <span className="linkTitle">
               Information
@@ -68,7 +69,6 @@ const Footer = () => {
             <span className="email">expample.email@gmail.com</span>
             
           </div>
-        </div>
       </div>
     </div>
   )
