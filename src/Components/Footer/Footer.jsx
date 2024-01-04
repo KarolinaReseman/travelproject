@@ -21,11 +21,6 @@ const Footer = () => {
             <BiLogoMediumOld className='icon'/>
             <span>IA-Trips</span>
           </div>
-          <div className="social flex" data-aos='fade-up'>
-            <ImFacebook className="icon"/>
-            <BsTwitter className="icon"/>
-            <AiFillInstagram className="icon"/>
-          </div>
         </div>
           <div className="footerLinks" data-aos='fade-up'>
             <span className="linkTitle">
